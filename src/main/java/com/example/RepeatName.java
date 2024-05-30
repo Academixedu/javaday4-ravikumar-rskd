@@ -12,17 +12,19 @@ public class RepeatName{
         for(int i=0;i<num;i++){
             System.out.println(name);
         }
-        /*int j=0;
+        System.out.println("End of for loop");
+         int j=0;
         while(j<numw){
             System.out.println(name);
+            j++;
         }
+        System.out.println("End of while loop");
         int k=0;
         do{
             System.out.println(name);
-            
-        }while(k<numd){
-            System.out.println(name);
-        }*/
+            k++;
+        }
+        while(k<numd);
         
     }
 }
